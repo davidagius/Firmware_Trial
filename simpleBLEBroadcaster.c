@@ -46,7 +46,6 @@
 #include <ti/sysbios/knl/Semaphore.h>
 #include <ti/sysbios/knl/Queue.h>
 
-#include "hci.h"
 #include "gatt.h"
 #include "gapgattserver.h"
 #include "gattservapp.h"
@@ -59,9 +58,10 @@
 
 #include "util.h"
 #include "board_lcd.h"
-#include "Board.h"
    
 #include "simpleBLEBroadcaster.h"
+
+#include "Board.h"
 
 #include <ti/drivers/lcd/LCDDogm1286.h>
 /*********************************************************************
