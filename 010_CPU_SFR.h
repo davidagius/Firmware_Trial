@@ -16,7 +16,7 @@ void dpa_init_sfr_01a_pclocks()
 	//	set=set|OSB_2; //BIT 2 - NA
 	//	set=set|OSB_3; //BIT 3 - NA
 	//	set=set|OSB_4; //BIT 4 - NA
-	//	set=set|OSB_5; //BIT 5 - NA
+		set=set|OSB_5; //BIT 5 - NA
 	//	set=set|OSB_6; //BIT 6 - NA
 	//	set=set|OSB_7; //BIT 7 - NA
 //	PCON = set;
@@ -57,7 +57,7 @@ void dpa_init_sfr_01a_pclocks()
 	{
 		set = SLEEP;
 	}
-	
+
 }
 
 void dpa_init_sfr_01b_interrupts()
